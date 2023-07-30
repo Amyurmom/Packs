@@ -3,7 +3,7 @@
 				local Workspace = game:GetService("Workspace")
 				local objs = game:GetObjects("rbxassetid://14248871493")
 				local import = objs[1]
-				import.Parent = ReplicatedStorage
+				import.Parent = game:GetService("ReplicatedStorage")
 				local index = {
 					{
 						name = "wood_sword",
